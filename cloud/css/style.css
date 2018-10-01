@@ -70,6 +70,28 @@ form .p-list .p-list__item label, form .p-sidebar-nav__list .p-list__item label,
   padding-left: 1rem;
 }
 
+.examplecontainer {
+  background: #f7f7f7;
+  padding: 80px 100px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+img.example {
+  border: 40px solid white;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+img.examplebig {
+  width: 70%;
+}
+
+li.guideline {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
 /* content */
 
 .p-navigation--sidebar .sidebar__content {
