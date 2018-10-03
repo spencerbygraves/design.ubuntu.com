@@ -9,7 +9,9 @@ body-class: "brand"
 	  <div class="col-8">
 	    <h2 id="our-sass-framework">Buttons</h2>
 	    <p>Buttons describe an action that will occur when the user clicks or taps it. They can also give actions different levels of emphasis within the UI.</p>
-			<img src="../imgs/intro.jpg" title='intro' />
+			<div class='examplecontainer'>
+				<img src="../imgs/intro.png" class='example' title='intro' />
+			</div>
 			<span class='notes'>Sample of buttons in context</span>
 	  </div>
 	</div>
@@ -21,11 +23,11 @@ body-class: "brand"
       <h2 id="our-work-practices">Usage</h2>
       <p>Buttons can be used in many places and contexts, for example:</p>
       <ul class="p-list">
-        <li class="p-list__item is-ticked">Forms</li>
-				<li class="p-list__item is-ticked">Tables views</li>
-				<li class="p-list__item is-ticked">Cards</li>
-				<li class="p-list__item is-ticked">Modal windows</li>
-				<li class="p-list__item is-ticked">Dialogs</li>
+        <li class='guideline'>Forms</li>
+				<li class='guideline'>Tables views</li>
+				<li class='guideline'>Cards</li>
+				<li class='guideline'>Modal windows</li>
+				<li class='guideline'>Dialogs</li>
       </ul>
     </div>
   </div>
@@ -37,17 +39,32 @@ body-class: "brand"
       <h2 id="our-work-practices">Types</h2>
       <p>We have four different button types, to use for different levels of emphasis.</p>
       <ul class="p-list">
-        <li class="p-list__item is-ticked">Neutral</li>
-				<li class="p-list__item is-ticked">Positive</li>
-				<li class="p-list__item is-ticked">Negative</li>
-				<li class="p-list__item is-ticked">The above with animation / icons</li>
-				<li class="p-list__item is-ticked">The above at large and small sizes</li>
+        <li class='guideline'>Neutral</li>
+				<li class='guideline'>Positive</li>
+				<li class='guideline'>Negative</li>
+				<li class='guideline'>The above with animation / icons</li>
+				<li class='guideline'>The above at large and small sizes</li>
       </ul>
-			<img src="../imgs/types.jpg" title='types' />
+			<div class='examplecontainer'>
+				<img src="../imgs/types.png" class='example' title='types' />
+			</div>
 			<span class='notes'>Types of buttons</span>
 			<br>
-			<img src="../imgs/states.jpg" title='states' />
+			<div class='examplecontainer'>
+				<img src="../imgs/states.png" class='example' title='states' />
+			</div>
 			<span class='notes'>States of buttons</span>
+			<br>
+			<div class='examplecontainer'>
+				<video autoplay>
+					<source src="../imgs/positivebtn.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<video autoplay>
+					<source src="../imgs/negativebtn.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
     </div>
   </div>
 </div>
@@ -58,15 +75,17 @@ body-class: "brand"
       <h2 id="our-work-practices">Hierarchy</h2>
       <p>Our buttons are designed to be used with other UI elements to give different levels of visual emphasis.</p>
 			<ul class="p-list">
-        <li class="p-list__item is-ticked">High emphasis</li>
-				<li>Positive button</li>
-				<li>Negative button</li>
-        <li class="p-list__item is-ticked">Medium emphasis</li>
-				<li>Neutral button</li>
-        <li class="p-list__item is-ticked">Low emphasis</li>
-				<li>Base button</li>
+        <li class='guideline'>High emphasis</li>
+				<li class='guideline'>Positive button</li>
+				<li class='guideline'>Negative button</li>
+        <li class='guideline'>Medium emphasis</li>
+				<li class='guideline'>Neutral button</li>
+        <li class='guideline'>Low emphasis</li>
+				<li class='guideline'>Base button</li>
 			</ul>
-			<img src="../imgs/hierarchy.jpg" title='hierarchy' />
+			<div class='examplecontainer'>
+				<img src="../imgs/hierarchy.png" class='example' title='hierarchy' />
+			</div>
 			<span class='notes'>Example of hierarchy among buttons</span>
     </div>
   </div>
@@ -76,19 +95,37 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h2 id="our-work-practices">Grouping</h2>
-			<ul class="p-list">
-        <li class="p-list__item is-ticked">Positive</li>
-				<li>Try to only use one positive or negative button per page if the content allows. This will help the user to understand the main purpose of the page and the required action.</li>
-        <li class="p-list__item is-ticked">Positive and neutral</li>
-				<li>If a positive or negative button requires a supporting action the neutral button should be used</li>
-        <li class="p-list__item is-ticked">Positive and base</li>
-				<li>If the supporting action does not require the prominence given by a neutral button, the base style can be used.</li>
-				<li class="p-list__item is-ticked">Neutral and base</li>
-				<li>This combination should be used on pages where a positive or negative button has already been used, on pages with many buttons, or on pages where prominence is less important.</li>
+			<ul class="p-list"><br>
+        <li><h5>Positive</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/positive.png" title='cards' />
+				</div>
+				<br>
+				Try to only use one positive or negative button per page if the content allows. This will help the user to understand the main purpose of the page and the required action.</li><br>
+        <li><h5>Positive and neutral</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/positive-neutral.png" title='cards' />
+				</div>
+				<br>
+				If a positive or negative button requires a supporting action the neutral button should be used</li><br>
+        <li><h5>Positive and base</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/positive-base.png" title='cards' />
+				</div>
+				<br>
+				If the supporting action does not require the prominence given by a neutral button, the base style can be used.</li><br>
+				<li><h5>Neutral and base</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/neutral-base.png" title='cards' />
+				</div>
+				<br>
+				This combination should be used on pages where a positive or negative button has already been used, on pages with many buttons, or on pages where prominence is less important.</li>
 			</ul>
-			<img src="../imgs/cards01.jpg" title='cards' /><br>
-			<img src="../imgs/cards02.jpg" title='cards' />
-			<span class='notes'>Example of hierarchy among buttons</span>
+			<br>
     </div>
   </div>
 </div>
