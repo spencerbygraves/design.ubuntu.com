@@ -79,7 +79,7 @@ form .p-list .p-list__item label, form .p-sidebar-nav__list .p-list__item label,
 
 img.example {
   border: 40px solid white;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 4px 2px rgba(0,0,0,0.1);
 }
 
 img.examplebig {
