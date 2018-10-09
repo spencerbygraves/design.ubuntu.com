@@ -10,9 +10,9 @@ body-class: "brand"
 	    <h2 id="our-sass-framework">Buttons</h2>
 	    <p>Buttons describe an action that will occur when the user clicks or taps it. They can also give actions different levels of emphasis within the UI.</p>
 			<div class='examplecontainer'>
-				<img src="../imgs/intro.png" class='example' title='intro' />
+				<img src="../imgs/buttons/intro.png" class='example' title='intro' />
 			</div>
-			<span class='notes'>Sample of buttons in context</span>
+			<span class='notes'>Example of buttons in context</span>
 	  </div>
 	</div>
 </div>
@@ -46,22 +46,22 @@ body-class: "brand"
 				<li class='guideline'>The above at large and small sizes</li>
       </ul>
 			<div class='examplecontainer'>
-				<img src="../imgs/types.png" class='example' title='types' />
+				<img src="../imgs/buttons/types.png" class='example' title='types' />
 			</div>
 			<span class='notes'>Types of buttons</span>
 			<br>
 			<div class='examplecontainer'>
-				<img src="../imgs/states.png" class='example' title='states' />
+				<img src="../imgs/buttons/states.png" class='example' title='states' />
 			</div>
 			<span class='notes'>States of buttons</span>
 			<br>
 			<div class='examplecontainer'>
 				<video autoplay>
-					<source src="../imgs/positivebtn.mp4" type="video/mp4">
+					<source src="../imgs/buttons/positivebtn.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 				<video autoplay>
-					<source src="../imgs/negativebtn.mp4" type="video/mp4">
+					<source src="../imgs/buttons/negativebtn.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
 			</div>
@@ -84,7 +84,7 @@ body-class: "brand"
 				<li class='guideline'>Base button</li>
 			</ul>
 			<div class='examplecontainer'>
-				<img src="../imgs/hierarchy.png" class='example' title='hierarchy' />
+				<img src="../imgs/buttons/hierarchy.png" class='example' title='hierarchy' />
 			</div>
 			<span class='notes'>Example of hierarchy among buttons</span>
     </div>
@@ -99,28 +99,28 @@ body-class: "brand"
         <li><h5>Positive</h5></li>
 				<li>
 				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/positive.png" title='cards' />
+					<img class='examplebig' src="../imgs/buttons/positive.png" title='cards' />
 				</div>
 				<br>
 				Try to only use one positive or negative button per page if the content allows. This will help the user to understand the main purpose of the page and the required action.</li><br>
         <li><h5>Positive and neutral</h5></li>
 				<li>
 				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/positive-neutral.png" title='cards' />
+					<img class='examplebig' src="../imgs/buttons/positive-neutral.png" title='cards' />
 				</div>
 				<br>
 				If a positive or negative button requires a supporting action the neutral button should be used</li><br>
         <li><h5>Positive and base</h5></li>
 				<li>
 				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/positive-base.png" title='cards' />
+					<img class='examplebig' src="../imgs/buttons/positive-base.png" title='cards' />
 				</div>
 				<br>
 				If the supporting action does not require the prominence given by a neutral button, the base style can be used.</li><br>
 				<li><h5>Neutral and base</h5></li>
 				<li>
 				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/neutral-base.png" title='cards' />
+					<img class='examplebig' src="../imgs/buttons/neutral-base.png" title='cards' />
 				</div>
 				<br>
 				This combination should be used on pages where a positive or negative button has already been used, on pages with many buttons, or on pages where prominence is less important.</li>

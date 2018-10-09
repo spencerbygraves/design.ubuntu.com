@@ -7,43 +7,128 @@ body-class: "brand"
 <div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
-	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
 	    <h2 id="our-sass-framework">Colour</h2>
-	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
-	    <ul class="p-list">
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
-	    </ul>
+	    <p>Colour can help to understand content hierarchy, indicate UI states, and express brand values.</p>
+			<div class='examplecontainer'>
+				<img src="../imgs/forms/intro.png" class='example' title='intro' />
+			</div>
+			<span class='notes'>Example of a form with labels, input fields, and main call to action</span>
 	  </div>
 	</div>
 </div>
 
-<div class="p-strip is-bordered">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2 id="our-work-practices">Another title</h2>
-      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
-      <ul class="p-list">
-        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
-      </ul>
+      <p>We have a neutral grey color palette, plus a range of colours with semantic meaning.</p>
+			<div class='examplecontainer'>
+				<img src="../imgs/forms/example.png" class='example' title='intro' />
+			</div>
+			<span class='notes'>Example of a form for a payment flow</span>
     </div>
   </div>
 </div>
 
-<div class="p-strip">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2>What's new</h2>
-      <ul class="p-list--divided">
-        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
-        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
-        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
-        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
-        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>
+      <h2 id="our-work-practices">Usage</h2>
+      <p>There a 6 types of user input:</p>
+      <ul class="p-list">
+        <li class='guideline'>Single line fields</li>
+				<li class='guideline'>Multi line fields</li>
+				<li class='guideline'>Text areas</li>
+				<li class='guideline'>Select menu</li>
+				<li class='guideline'>Checkbox</li>
+				<li class='guideline'>Radio button</li>
       </ul>
-      <p><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-button--brand">Download for free</a></p>
+			<div class='examplecontainer'>
+				<img src="../imgs/forms/types.png" class='example' title='intro' />
+			</div>
+			<span class='notes'>Different types of user inputs</span>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Contrast</h2>
+			<p>There are 3 types of form grouping available depending on the page layout you are using.</p>
+			<ul class="p-list"><br>
+        <li><h5>Vertical</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/forms/vertical.png" class='example' title='cards' />
+				</div>
+				<br>
+				Recommended for most layouts.</li><br>
+        <li><h5>Horizontal</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/forms/horizontal.png" class='example' title='cards' />
+				</div>
+				<br>
+				Recommended for compact layouts.</li><br>
+        <li><h5>Inline</h5></li>
+				<li>
+				<div class='examplecontainer'>
+					<img class='examplebig' src="../imgs/forms/inline.png" class='example' title='cards' />
+				</div>
+				<br>
+				Recommended for use in tables</li>
+			</ul>
+			<br>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">UI states</h2>
+      <p>The states of our text fields clearly reflect the user action.</p>
+      <ul class="p-list">
+        <li class='guideline'>Enabled</li>
+				<li class='guideline'>Disabled</li>
+				<li class='guideline'>Focused</li>
+				<li class='guideline'>Text added</li>
+				<li class='guideline'>Error</li>
+      </ul>
+			<div class='examplecontainer'>
+				<img src="../imgs/forms/states.png" class='example' title='intro' />
+			</div>
+			<span class='notes'>Different states of user inputs</span>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Brand</h2>
+      <p>The states of our text fields clearly reflect the user action.</p>
+      <ul class="p-list">
+        <li class='guideline'>Enabled</li>
+				<li class='guideline'>Disabled</li>
+				<li class='guideline'>Focused</li>
+				<li class='guideline'>Text added</li>
+				<li class='guideline'>Error</li>
+      </ul>
+			<div class='examplecontainer'>
+				<img src="../imgs/forms/states.png" class='example' title='intro' />
+			</div>
+			<span class='notes'>Different states of user inputs</span>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2>Links</h2>
+			<p><a href="https://docs.vanillaframework.io/en/settings/color-settings">Vanilla Docs for colour</a></p>
+      <p><a href="#" class="p-button--brand">Download the Sketch file</a></p>
     </div>
   </div>
 </div>
