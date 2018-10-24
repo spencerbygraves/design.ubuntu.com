@@ -33,14 +33,23 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h2 id="our-work-practices">Usage</h2>
-      <p>There a 6 types of user input:</p>
+      <p>The neutral colours in the palette should be used for:</p>
       <ul class="p-list">
-        <li class='guideline'>Single line fields</li>
-				<li class='guideline'>Multi line fields</li>
-				<li class='guideline'>Text areas</li>
-				<li class='guideline'>Select menu</li>
-				<li class='guideline'>Checkbox</li>
-				<li class='guideline'>Radio button</li>
+        <li class='guideline'>#FFFFFF - page backgrounds</li>
+				<li class='guideline'>#F7F7F7 - backgrounds</li>
+				<li class='guideline'>#E5E5E5 - backgrounds and page furniture</li>
+				<li class='guideline'>#CDCDCD - page furniture</li>
+				<li class='guideline'>#999999 - borders</li>
+				<li class='guideline'>#666666 - icons and secondary text</li>
+				<li class='guideline'>#111111 - text</li>
+      </ul>
+			<p>The semantic colours in the palette should be used for:</p>
+      <ul class="p-list">
+        <li class='guideline'>#C7162B - errors and negative actions</li>
+				<li class='guideline'>#F99B11 - caution</li>
+				<li class='guideline'>#0E8420 - success and positive actions</li>
+				<li class='guideline'>#335280 - information and selected states</li>
+				<li class='guideline'>#007AA6 - links</li>
       </ul>
 			<div class='examplecontainer'>
 				<img src="../imgs/forms/types.png" class='example' title='intro' />
@@ -54,47 +63,38 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h2 id="our-work-practices">Contrast</h2>
-			<p>There are 3 types of form grouping available depending on the page layout you are using.</p>
-			<ul class="p-list"><br>
-        <li><h5>Vertical</h5></li>
-				<li>
-				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/forms/vertical.png" class='example' title='cards' />
-				</div>
-				<br>
-				Recommended for most layouts.</li><br>
-        <li><h5>Horizontal</h5></li>
-				<li>
-				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/forms/horizontal.png" class='example' title='cards' />
-				</div>
-				<br>
-				Recommended for compact layouts.</li><br>
-        <li><h5>Inline</h5></li>
-				<li>
-				<div class='examplecontainer'>
-					<img class='examplebig' src="../imgs/forms/inline.png" class='example' title='cards' />
-				</div>
-				<br>
-				Recommended for use in tables</li>
-			</ul>
-			<br>
-    </div>
-  </div>
+			<p>When combined thoughtfully, the colours in our palette can give greater emphasis to content through the use of contrast.</p>
+		</div>
+	</div>
 </div>
 
 <div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
       <h2 id="our-work-practices">UI states</h2>
-      <p>The states of our text fields clearly reflect the user action.</p>
-      <ul class="p-list">
-        <li class='guideline'>Enabled</li>
-				<li class='guideline'>Disabled</li>
-				<li class='guideline'>Focused</li>
-				<li class='guideline'>Text added</li>
-				<li class='guideline'>Error</li>
-      </ul>
+      <p>We can also use colour to indicate the current state and any changes in state of a UI element or application.</p>
+			<p>Example states:</p>
+				<ul class="p-list">
+					<li class='guideline'>Enabled</li>
+					<li class='guideline'>Disabled</li>
+					<li class='guideline'>Hover</li>
+					<li class='guideline'>Pressed</li>
+					<li class='guideline'>Selected</li>
+					<li class='guideline'>Active</li>
+					<li class='guideline'>In error</li>
+					<li class='guideline'>Pending</li>
+					<li class='guideline'>Successfully completed</li>
+					<li class='guideline'>Failed</li>
+				</ul>
+			<p>Colours to use:</p>
+				<ul class="p-list">
+					<li class='guideline'>Hover - #E5E5E5</li>
+					<li class='guideline'>Positive - #0E8420</li>
+					<li class='guideline'>Negative - #C7162B</li>
+					<li class='guideline'>Caution - #F99B11</li>
+					<li class='guideline'>Selected - #335280</li>
+					<li class='guideline'>Link - #007AA6</li>
+				</ul>
 			<div class='examplecontainer'>
 				<img src="../imgs/forms/states.png" class='example' title='intro' />
 			</div>
@@ -107,14 +107,7 @@ body-class: "brand"
   <div class="row">
     <div class="col-8">
       <h2 id="our-work-practices">Brand</h2>
-      <p>The states of our text fields clearly reflect the user action.</p>
-      <ul class="p-list">
-        <li class='guideline'>Enabled</li>
-				<li class='guideline'>Disabled</li>
-				<li class='guideline'>Focused</li>
-				<li class='guideline'>Text added</li>
-				<li class='guideline'>Error</li>
-      </ul>
+      <p>If a product has its own brand colour it can be used instead of the neutral palette where appropriate. However, we recommend that semantic colours are not altered.</p>
 			<div class='examplecontainer'>
 				<img src="../imgs/forms/states.png" class='example' title='intro' />
 			</div>
