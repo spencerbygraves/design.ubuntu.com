@@ -7,27 +7,29 @@ body-class: "brand"
 <div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
-	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
-	    <h2 id="our-sass-framework">Z-index</h2>
-	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
-	    <ul class="p-list">
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
-	    </ul>
+	    <h2 id="our-sass-framework">Depth</h2>
+	    <p>Depth can give emphasis to an area of content, indicate a state change or signal user input.</p>
 	  </div>
 	</div>
 </div>
 
-<div class="p-strip is-bordered">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2 id="our-work-practices">Another title</h2>
-      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
-      <ul class="p-list">
-        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
-      </ul>
+      <h2 id="our-work-practices">Usage</h2>
+      <p>Depth is created by using shadow values that are defined in the Vanilla docs, and should be used in a consistent way across our interfaces. They are commonly used in these areas:</p>
+				<ul class="p-list">
+					<li class='guideline'>Enabled</li>
+					<li class='guideline'>Disabled</li>
+					<li class='guideline'>Hover</li>
+					<li class='guideline'>Pressed</li>
+					<li class='guideline'>Selected</li>
+					<li class='guideline'>Active</li>
+					<li class='guideline'>In error</li>
+					<li class='guideline'>Pending</li>
+					<li class='guideline'>Successfully completed</li>
+					<li class='guideline'>Failed</li>
+				</ul>
     </div>
   </div>
 </div>

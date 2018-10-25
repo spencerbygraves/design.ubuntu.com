@@ -7,43 +7,47 @@ body-class: "brand"
 <div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
-	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
-	    <h2 id="our-sass-framework">Text</h2>
-	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
-	    <ul class="p-list">
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
-	    </ul>
+	    <h2 id="our-sass-framework">Type hierarchy</h2>
+	    <p>We use typography to create effective designs with a clear hierarchy, helping the user to understand and scan the content.</p>
 	  </div>
 	</div>
 </div>
 
-<div class="p-strip is-bordered">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2 id="our-work-practices">Another title</h2>
-      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
-      <ul class="p-list">
-        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
-      </ul>
+      <h2 id="our-work-practices">Usage</h2>
+      <p>In our cloud products we recommend only using h3, h4, h5 and p, reserving h1 and h2 for brochure sites. The aim of this is to reduce vertical spacing and to decrease visual complexity in detailed products.</p>
+      <p>When designing for products with these type sizes, consider starting with p and working up the scale, only using larger sizes where necessary.</p>
+      <p>H1 and h2 can be used in cloud products if necessary but they should be kept to minimum.</p>
     </div>
   </div>
 </div>
 
-<div class="p-strip">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2>What's new</h2>
-      <ul class="p-list--divided">
-        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
-        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
-        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
-        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
-        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>
-      </ul>
-      <p><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-button--brand">Download for free</a></p>
+      <h2 id="our-work-practices">The type scale</h2>
+      <p>All text should use the Ubuntu typeface. We have 6 heading sizes plus a paragraph style.</p>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Grouping</h2>
+      <p>When using h1 and h2 we recommend leaving a gap in the scale before a subheading. For example, use h1 & h3 or h2 & h4. This will help to give clarity and distinction to each heading.</p>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2>Links</h2>
+			<p><a href="https://docs.vanillaframework.io/en/base/typography">Vanilla Docs for typography</a></p>
+      <p><a href="#" class="p-button--brand">Download the Sketch file</a></p>
     </div>
   </div>
 </div>

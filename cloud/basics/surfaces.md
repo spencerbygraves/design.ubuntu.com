@@ -7,43 +7,99 @@ body-class: "brand"
 <div class="p-strip is-shallow">
 	<div class="row">
 	  <div class="col-8">
-	    <p>Find out about the tools and practices followed by the Ubuntu Web Team.</p>
 	    <h2 id="our-sass-framework">Surfaces</h2>
-	    <p>The Web Team developed Vanilla, a Sass framework that is used by Canonical and anyone who wants a clean and flexible baseline to develop beautiful websites.</p>
-	    <ul class="p-list">
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">TEST LINE</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/vanilla-framework/vanilla-framework">Vanilla Framework on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/vanilla-design">Vanilla Design on GitHub</a></li>
-	      <li class="p-list__item is-ticked"><a href="https://docs.vanillaframework.io/">Vanilla Framework documentation</a></li>
-	    </ul>
+	    <p>Our surfaces are designed to give consistency across our interfaces, using colour, borders and shadows.</p>
 	  </div>
 	</div>
 </div>
 
-<div class="p-strip is-bordered">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2 id="our-work-practices">Another title</h2>
-      <p>We try as much as possible to document the practices and principles we follow on the Web Team.</p>
+      <h2 id="our-work-practices">Usage</h2>
+      <p>Surfaces can be used in different places, for example:</p>
       <ul class="p-list">
-        <li class="p-list__item is-ticked"><a href="https://github.com/ubuntudesign/webteam-practices">Web team practices on GitHub</a></li>
+        <li class='guideline'>The entire background of a page</li>
+				<li class='guideline'>To emphasise a part of the UI</li>
+				<li class='guideline'>To reinforce a user action</li>
       </ul>
     </div>
   </div>
 </div>
 
-<div class="p-strip">
+<div class="p-strip is-shallow">
   <div class="row">
     <div class="col-8">
-      <h2>What's new</h2>
-      <ul class="p-list--divided">
-        <li class="p-list__item"><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-link--external">Download the Ubuntu Font Family</a> (2.0MB)</li>
-        <li class="p-list__item"><p><a href="https://assets.ubuntu.com/v1/4cd05122-ubuntu-font-family-sources_0.83.orig.tar.gz" class="p-link--external">Download the Ubuntu Font Family source code</a></p> (For font designers with a copy of Font Lab Studio, 7.8MB)</li>
-        <li class="p-list__item"><a href="https://fonts.google.com/?query=Ubuntu" class="p-link--external">Google Web Fonts</a></li>
-        <li class="p-list__item"><a href="http://launchpad.net/ubuntu-font-family" class="p-link--external">Launchpad</a></li>
-        <li class="p-list__item"><a href="http://wiki.ubuntu.com/Ubuntu_Font_Family" class="p-link--external">Wiki documentation</a></li>
+      <h2 id="our-work-practices">Types</h2>
+      <p>We have various types of surface that can be used:</p>
+      <ul class="p-list">
+        <li class='guideline'>White page background</li>
+				<li class='guideline'>Grey background</li>
+				<li class='guideline'>Modal window</li>
+        <li class='guideline'>Modal window background</li>
+				<li class='guideline'>Card with border</li>
+				<li class='guideline'>Card with shadow</li>
+        <li class='guideline'>Drawer</li>
+        <li class='guideline'>Menus & dropdowns</li>
       </ul>
-      <p><a href="https://assets.ubuntu.com/v1/fad7939b-ubuntu-font-family-0.83.zip" class="p-button--brand">Download for free</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+	<div class="row">
+	  <div class="col-8">
+	    <h2 id="our-sass-framework">Hierarchy</h2>
+	    <p>It is important to achieve a good level of contrast between a surface and any important UI elements, as such the main page background colour should be white. Grey can also be used as a background to help define smaller areas of the page where extra emphasis may be needed.</p>
+	  </div>
+	</div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Grouping</h2>
+      <p>Different types of surfaces can be used on the same page.</p>
+      <ul class="p-list">
+        <li class='guideline'>White and grey page backgrounds</li>
+          <ul>
+            <li>White should always be the dominant background colour</li>
+          </ul>
+				<li class='guideline'>Card with shadow and with border</li>
+          <ul>
+            <li>Use the card with shadow for extra emphasis</li>
+          </ul>
+				<li class='guideline'>Overlays</li>
+          <ul>
+            <li>Only one overlay or modal window should be shown at a time</li>
+          </ul>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow is-bordered">
+  <div class="row">
+    <div class="col-8">
+      <h2 id="our-work-practices">Brand surfaces</h2>
+      <p>Where appropriate, a branded surface such as the Suru pattern can be used, for example:</p>
+      <ul class="p-list">
+        <li class='guideline'>In an introductory banner</li>
+				<li class='guideline'>In a promotional area</li>
+				<li class='guideline'>As the background to a promotional image</li>
+      </ul>
+      <p>We avoid using the branded Suru pattern in many places on one page or as a complete page background, and never behind important UI areas.</p>
+      <p>The exact use of the Suru pattern is defined by the brand team.</p>
+    </div>
+  </div>
+</div>
+
+<div class="p-strip is-shallow">
+  <div class="row">
+    <div class="col-8">
+      <h2>Links</h2>
+			<p><a href="https://docs.vanillaframework.io/en/">Vanilla Docs for surfaces</a></p>
+      <p><a href="#" class="p-button--brand">Download the Sketch file</a></p>
     </div>
   </div>
 </div>
