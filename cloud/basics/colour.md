@@ -35,7 +35,7 @@ body-class: "brand"
       <h2 id="our-work-practices">Usage</h2>
       <p>The neutral colours in the palette should be used for:</p>
       <ul class="p-list colourul">
-        <li><span class='coloursample' style='background: #FFFFFF;'></span>#FFFFFF</span> - page backgrounds</li>
+        <li><span class='coloursample' style='background: #FFFFFF;'></span>#FFFFFF - page backgrounds</li>
 				<li><span class='coloursample' style='background: #F7F7F7;'></span>#F7F7F7 - backgrounds</li>
 				<li><span class='coloursample' style='background: #E5E5E5;'></span>#E5E5E5 - backgrounds and page furniture</li>
 				<li><span class='coloursample' style='background: #CDCDCD;'></span>#CDCDCD - page furniture</li>
