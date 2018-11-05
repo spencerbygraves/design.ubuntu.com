@@ -102,3 +102,21 @@ li.guideline {
   font-size: 0.8em;
   color: #999;
 }
+
+.coloursample {
+  width: 30px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  position: absolute;
+  left: -37px;
+  top: 2px;
+}
+
+ul.colourul {
+   margin-left: 36px;
+}
+
+ul.colourul li {
+   position: relative;
+}
